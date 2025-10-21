@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------- #
+# Dépendances et build
+# ---------------------------------------------------------------- #
+/node_modules
+/dist
+/build
+
+# Fichiers de configuration spécifiques à npm
+npm-debug.log
+npm-error.log
+.npm
+package-lock.json      # <-- Fichier de verrouillage NPM
+
+
+# Fichiers de cache et de logs
+logs
+*.log
+.temp
+
+# Fichiers de configuration des IDE
+.vscode/               # <-- Dossier de configuration Visual Studio Code
+.idea
+.pnp.*
