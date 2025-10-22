@@ -1,0 +1,29 @@
+@use './variables.scss' as *;
+
+@mixin heading-1 {
+  font-family: $font-family-heading;
+  font-size: 48px;
+  color: $color-primary;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+@mixin heading-2 {
+  font-family: $font-family-primary;
+  font-size: 32px;
+  font-weight: bold;
+  color: $color-text;
+  @media (max-width: 768px) {
+    font-size: 22px;
+  }
+}
+
+@mixin body-text {
+  font-family: $font-family-primary;
+  font-size: 20px;
+  color: $color-text;
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}

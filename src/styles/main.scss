@@ -1,2 +1,7 @@
-@forward './variables.scss';
+//@forward './variables.scss';
 @forward './mixins.scss';
+
+body {
+  background-color: #fbfbf5;
+  margin: 5px 15px;
+}
