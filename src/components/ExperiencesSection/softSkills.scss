@@ -1,0 +1,23 @@
+@use '../../styles/mixins.scss' as *;
+.soft-skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 15px 0 0 0;
+}
+.badge {
+  padding: 10px 8px;
+  border-radius: 8px;
+  text-align: center;
+  white-space: nowrap;
+  flex: 1 1 calc(45% - 12.5px);
+  width: auto;
+  @include body-text;
+}
+
+/* Style unifié pour toutes les soft skills */
+.badge.unified {
+  background-color: #ffd586;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

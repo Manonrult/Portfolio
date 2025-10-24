@@ -11,7 +11,7 @@
 
 @mixin heading-2 {
   font-family: $font-family-primary;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   color: $color-text;
   @media (max-width: 768px) {
@@ -21,9 +21,9 @@
 
 @mixin body-text {
   font-family: $font-family-primary;
-  font-size: 20px;
+  font-size: 18px;
   color: $color-text;
   @media (max-width: 768px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

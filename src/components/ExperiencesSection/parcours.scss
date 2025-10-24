@@ -1,0 +1,101 @@
+@use '../../styles/variables.scss' as *;
+@use '../../styles/mixins.scss' as *;
+
+.parcours-container {
+  padding: 5px 25px 26px 25px;
+  background-color: $color-primary;
+  margin: -50px -0px 0px -15px;
+  width: 100vw;
+}
+
+.section-title {
+  @include heading-2;
+  margin-bottom: 20px;
+}
+
+.parcours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.parcours-item {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+
+  // Ligne de temps verticale
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    height: 200%;
+    width: 2px;
+    background-color: #fbfbf5;
+  }
+  &:first-child::before {
+    top: 15px;
+    height: calc(
+      200% - 15px
+    ); // Réduit la hauteur pour compenser le décalage 'top'
+  }
+
+  &:last-child::before {
+    height: 15px;
+    margin-bottom: 0;
+  }
+}
+.parcours-content {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.parcours-annee {
+  display: flex;
+  align-items: flex-start;
+  font-weight: bold;
+  color: $color-text;
+  margin-bottom: 5px;
+  min-width: 50px;
+  flex-shrink: 0;
+  position: relative;
+
+  .year-text {
+    @include body-text;
+  }
+}
+
+.parcours-icon {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  min-width: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 10;
+  padding: 2px;
+
+  &.formation {
+    color: darken($color-primary, 15%);
+  }
+
+  &.travail {
+    color: darken($color-primary, 15%);
+  }
+}
+
+.parcours-titre {
+  @include body-text;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+@media (max-width: 769px) {
+  .parcours-content {
+    width: 80%;
+  }
+}

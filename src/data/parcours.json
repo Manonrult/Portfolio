@@ -1,0 +1,32 @@
+[
+  {
+    "annee": ["2025"],
+    "titre": "Formation Développeur web (RNCP 38145) - OpenClassrooms",
+    "type": "formation"
+  },
+  {
+    "annee": ["2025", "2018"],
+    "titre": "Enseignante en lycée professionnelle STMS - Lycée Joseph Wresinski Angers et Lycée Bourg-Chevreau Segré",
+    "type": "travail"
+  },
+  {
+    "annee": ["2022"],
+    "titre": "Diplôme d'enseignante CAPLP STMS, concours catégorie A",
+    "type": "formation"
+  },
+  {
+    "annee": ["2019"],
+    "titre": "L3 Sciences de l'éducation - Université Lyon 2 / CNED",
+    "type": "formation"
+  },
+  {
+    "annee": ["2017"],
+    "titre": "DE en Economie Sociale Familiale (DE CESF) - Cnam Angers",
+    "type": "formation"
+  },
+  {
+    "annee": ["2016"],
+    "titre": "BTS en Economie Sociale Familiale - Lycée Réaumur Laval",
+    "type": "formation"
+  }
+]

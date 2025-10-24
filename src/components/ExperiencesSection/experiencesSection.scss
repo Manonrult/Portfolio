@@ -1,0 +1,79 @@
+@use '../../styles/variables.scss' as *;
+@use '../../styles/mixins.scss' as *;
+
+.experiences-section {
+  padding: 20px 0;
+}
+
+.experiences-content-wrapper {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* --- CONTENEUR POUR PARCOURS ET STACK (Positionnement relatif) --- */
+.parcours-container-relative {
+  padding: -10px 40% 40px 40px;
+}
+
+/* --- STYLE DE LA STACK TECHNIQUE (Positionnement Absolu) --- */
+.stack-technique-container {
+  margin-top: 15%;
+  margin-left: 55%;
+  transform: translateY(-50%);
+  width: 30%; // Doit être inférieur au padding-right du parent (30%)
+  background-color: $color-secondary;
+  padding: 25px;
+  border-radius: 8px;
+  z-index: 10;
+}
+/* --- STYLE DES SOFT SKILLS --- */
+.soft-skills-section {
+  margin-left: 25px;
+  margin-top: -855px;
+  margin-bottom: 5%;
+  width: 40%;
+}
+// --- LOGIQUE RESPONSIVE (POUR TABLETTE ET MOBILE) ---
+@media (min-width: 1680px) {
+  .soft-skills-section {
+    margin-top: -795px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .stack-technique-container {
+    margin-top: 25%;
+    width: 37%;
+  }
+  .soft-skills-section {
+    margin-top: -955px;
+    width: 40%;
+  }
+}
+@media (max-width: 769px) {
+  .parcours-container-relative {
+    padding: 0px;
+    min-height: auto;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stack-technique-container {
+    position: static;
+
+    transform: none;
+    margin: 0 0 0 -16px;
+    width: 106%;
+    z-index: auto;
+    padding-right: 15px;
+  }
+  .soft-skills-section {
+    margin: 0 20px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "categorie": "Technologies",
+    "items": [
+      {
+        "nom": "HTML5",
+        "logo_url": "public/Logo-tech/Techno/HTML5.png"
+      },
+      { "nom": "CSS3", "logo_url": "/Logo-tech/Techno/CSS3.png" },
+      { "nom": "SASS", "logo_url": "/Logo-tech/Techno/SASS.png" },
+      { "nom": "JS", "logo_url": "/Logo-tech/Techno/JS.png" },
+      { "nom": "ReactJS", "logo_url": "/Logo-tech/Techno/React.png" },
+      {
+        "nom": "MongoDB",
+        "logo_url": "/Logo-tech/Techno/MongoDB.png"
+      },
+      {
+        "nom": "Express",
+        "logo_url": "/Logo-tech/Techno/Express.png"
+      },
+      { "nom": "NodeJS", "logo_url": "/Logo-tech/Techno/NodeJS.png" }
+    ]
+  },
+  {
+    "categorie": "Outils",
+    "items": [
+      { "nom": "VS Code", "logo_url": "/Logo-tech/Outils/VSCode.png" },
+      { "nom": "Git", "logo_url": "/Logo-tech/Outils/Git.png" },
+      { "nom": "GitHub", "logo_url": "/Logo-tech/Outils/Github.png" },
+      { "nom": "Eslint", "logo_url": "/Logo-tech/Outils/Eslint.png" },
+      {
+        "nom": "Prettier",
+        "logo_url": "/Logo-tech/Outils/Prettier.png"
+      },
+      { "nom": "Figma", "logo_url": "/Logo-tech/Outils/Figma.png" },
+      { "nom": "W3C", "logo_url": "/Logo-tech/Outils/W3C.png" },
+      { "nom": "Wave", "logo_url": "/Logo-tech/Outils/WAVE.png" },
+      { "nom": "Swagger", "logo_url": "/Logo-tech/Outils/swagger.png" },
+      { "nom": "Postman", "logo_url": "/Logo-tech/Outils/Postman.png" },
+      { "nom": "Notion", "logo_url": "/Logo-tech/Outils/Notion.png" }
+    ]
+  },
+  {
+    "categorie": "Connaissances",
+    "type": "liste",
+    "items": [
+      "Gen AI",
+      "Clean code",
+      "Sécurité",
+      "Accessibilité",
+      "Bonnes pratiques SEO",
+      "Responsive Web Design",
+      "Performances, accessibilité, sécurité",
+      "Présentation d'une solution technique",
+      "Veille technologique",
+      "Méthodologie Agile et Scrum",
+      "Cahier de recette de tests",
+      "API"
+    ]
+  }
+]

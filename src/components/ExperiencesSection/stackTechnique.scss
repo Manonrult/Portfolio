@@ -1,0 +1,92 @@
+@use '../../styles/variables.scss' as *;
+@use '../../styles/mixins.scss' as *;
+
+.stack-technique-container {
+  background-color: $color-secondary;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.section-subtitle,
+.category-title {
+  @include heading-2;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: $color-text;
+}
+
+// Styles pour les logos (type 'logos')
+.logos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+  margin-bottom: 30px;
+  padding-bottom: 1px;
+  border-bottom: 1px dashed lighten($color-text, 80%);
+}
+
+.logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 60px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.logo-name {
+  font-size: 0.7em;
+  color: $color-text;
+  font-family: $font-family-primary;
+}
+
+// Styles pour les connaissances (type 'liste')
+.knowledge-list {
+  list-style: none;
+  padding: 0;
+  margin: 0px 0 0 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+
+.knowledge-list li {
+  margin-bottom: 2px;
+  font-size: 0.9em;
+  font-family: $font-family-primary;
+  color: $color-text;
+
+  // Puce personnalisée (le cercle plein de la maquette)
+  &::before {
+    content: '•';
+    color: $color-third; // La couleur jaune
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .stack-technique-container {
+    border-radius: 0;
+  }
+  .category-title {
+    font-size: 20px;
+  }
+  .knowledge-list li {
+    flex-basis: calc(50% - 20px);
+  }
+}

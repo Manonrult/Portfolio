@@ -17,24 +17,23 @@ function Presentation() {
           Après huit années dédiées à l'enseignement en lycée professionnel,
           j'ai décidé de mettre ma rigueur, mon sens de l'organisation et ma
           capacité à structurer des projets au service d'un nouvel engagement
-          professionnel.
-          <br />
-          L’élément déclencheur de ce changement a été la découverte de la
-          création numérique : la possibilité de donner vie à des idées
-          concrètes, la technicité constante du domaine et l'énergie stimulante
-          de la dynamique de projet sont autant d'aspects qui m'ont
+          professionnel. L’élément déclencheur de ce changement a été la
+          découverte de la création numérique : la possibilité de donner vie à
+          des idées concrètes, la technicité constante du domaine et l'énergie
+          stimulante de la dynamique de projet sont autant d'aspects qui m'ont
           immédiatement séduite. Je suis désormais entièrement engagée dans le
           développement, impatiente d'appliquer ces nouvelles connaissances à
           des défis réels.
         </p>
+        <div className="presentation__image-wrapper">
+          <img
+            src={profileImage}
+            alt="Manon Ruault - photo de profil"
+            className="presentation__image-grouped"
+          />
+        </div>
       </div>
-      <div className="presentation__image-wrapper">
-        <img
-          src={profileImage}
-          alt="Manon Ruault - photo de profil"
-          className="presentation__image-grouped"
-        />
-      </div>
+
       <div className="presentation__button-wrapper">
         <a
           href="/CV-Manon-Ruault.pdf"
