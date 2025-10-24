@@ -1,0 +1,56 @@
+@use '../../styles/variables.scss' as *;
+@use '../../styles/mixins.scss' as *;
+
+.collapse {
+  width: 100%;
+  margin-bottom: 20px;
+
+  &__header {
+    background-color: $color-secondary; // 💡 Utilise votre $color-primary
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    // Utilisation d'une couleur de texte sombre pour contraste si $color-primary est clair
+    color: black;
+  }
+
+  &__title {
+    margin: 0;
+    @include body-text;
+    font-size: 22px;
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  &__icon {
+    transition: transform 0.3s ease;
+    &.open {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__content-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    background-color: #fbfbf5; // Couleur d'arrière-plan du contenu, utiliser $color-secondary si défini
+    border-radius: 0 0 5px 5px;
+
+    // Le 500px permet une animation fluide.
+    &.open {
+      max-height: 500px;
+      transition: max-height 0.5s ease-in-out;
+    }
+  }
+
+  &__content {
+    padding: 20px 40px;
+    @include body-text;
+    line-height: 1.5;
+    text-align: justify;
+  }
+}

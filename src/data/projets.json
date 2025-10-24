@@ -1,0 +1,216 @@
+[
+  {
+    "nom": "Booki",
+    "client": "Formation Dévelopeur Web - OpenClassrooms",
+    "date": "Juin 2025",
+    "lien_github": "https://github.com/Manonrult/OC-projet-2--Booki",
+    "images": [
+      {
+        "numero": 1,
+        "url": "/Projets/Booki/Booki1.png",
+        "description": "Image principale pour la page d'accueil"
+      },
+      {
+        "numero": 2,
+        "url": "/Projets/Booki/Booki2.png",
+        "description": "Image pour le carrousel"
+      }
+    ],
+    "contexte": "Le projet Booki se situe dans le contexte de la création d'une plateforme de réservation d'hébergements et d'activités en ligne. L'enjeu principal était de réaliser la première intégration d'un site web à partir d'une maquette fournie, en respectant rigoureusement les standards du développement frontal.",
+    "objectif": "Traduire fidèlement la maquette utilisateur (fournie en format desktop et mobile) en code fonctionnel en utilisant uniquement HTML et CSS. [cite_start]Le projet visait à développer un site web entièrement responsive sans utiliser de Framework, tout en assurant une sémantique HTML claire et une structure CSS maintenable.",
+    "stack_technique": "HTML5 pour la structure sémantique du contenu et CSS3 pour le style et la mise en page. Les outils de développement ont inclus VS Code et GitHub pour le versionnement et la collaboration.",
+    "competences_developpees": "Maîtrise des fondamentaux de l'intégration web: la structuration sémantique avec HTML5, l'utilisation des Flexbox et des Media Queries pour la gestion de la mise en page et la responsivité.Organisation du code CSS pour garantir la clarté et la maintenabilité.",
+    "resultats_et_impact": "Livrable final est un site web responsive, affichant parfaitement sur les écrans desktop, tablette et mobile. [cite_start]Le succès a été mesuré par la fidélité de l'intégration à la maquette. ",
+    "perspectives_amelioration": "Intégrer un préprocesseur CSS comme SASS afin d'améliorer la structure et la réutilisation des styles. [cite_start]Enrichir le site avec JavaScript pour une interactivité accrue."
+  },
+  {
+    "nom": "Sophie Bluel",
+    "client": "Formation Dévelopeur Web - OpenClassrooms",
+    "date": "Juillet 2025",
+    "lien_github": "https://github.com/Manonrult/OC-projet-3--Sophie-Bluel",
+    "images": [
+      {
+        "numero": 1,
+        "url": "/Projets/Sophie-Bluel/Sophie1.png",
+        "description": "Image principale pour la page d'accueil"
+      },
+      {
+        "numero": 2,
+        "url": "/Projets/Sophie-Bluel/Sophie2.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 3,
+        "url": "/Projets/Sophie-Bluel/Sophie3.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 4,
+        "url": "/Projets/Sophie-Bluel/Sophie4.png",
+        "description": "Image pour le carrousel"
+      }
+    ],
+    "contexte": "Simulation de la refonte du site portfolio d'une architecte, Sophie Bluel, avec un accent sur l'interactivité. L'enjeu principal était de réaliser un site dynamique en manipulant des données via une API pour gérer l'affichage des travaux et l'accès à un mode édition sécurisé.",
+    "objectif": "Développer les galeries de travaux et mettre en place les fonctionnalités de connexion et de déconnexion de l'administrateur. Garantir l'affichage dynamique du contenu via des appels API, l'implémentation de filtres, et sécuriser l'accès au mode édition via l'authentification par token JWT.",
+    "stack_technique": "HTML5 et CSS3 pour l'intégration, avec JavaScript pur pour toute la logique front-end et les manipulations du DOM. Échanges de données effectués avec une API REST pour récupérer les projets et gérer l'authentification. ",
+    "competences_developpees": "Maîtrise de la manipulation du DOM pour l'injection dynamique de contenu et le développement de filtres. Implémentation du processus d'authentification utilisateur (login/logout) et gestion des tokens JWT pour sécuriser les fonctionnalités administratives.",
+    "resultats_et_impact": "Livrable final est une interface utilisateur fonctionnelle capable d'afficher, de filtrer et de mettre à jour la galerie de travaux dynamiquement. Le succès a été mesuré par la validation des interactions utilisateur et la sécurité du processus d'authentification pour le mode administrateur.",
+    "perspectives_amelioration": "Utilisation d'un framework JavaScript (comme React) pour améliorer la gestion de l'état global et la scalabilité du projet. "
+  },
+  {
+    "nom": "Nina Carducci",
+    "client": "Formation Dévelopeur Web - OpenClassrooms",
+    "date": "Août 2025",
+    "lien_github": "https://github.com/Manonrult/0C-Projet-4-SEO-accessibility-Nina-Carducci",
+    "images": [
+      {
+        "numero": 1,
+        "url": "/Projets/Nina-Carducci/Nina1.png",
+        "description": "Image principale pour la page d'accueil"
+      },
+      {
+        "numero": 2,
+        "url": "/Projets/Nina-Carducci/Nina2.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 3,
+        "url": "/Projets/Nina-Carducci/Nina3.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 4,
+        "url": "/Projets/Nina-Carducci/Nina4.png",
+        "description": "Image pour le carrousel"
+      }
+    ],
+    "contexte": "Auditer et optimiser le site web d'une photographe professionnelle, Nina Carducci, afin d'améliorer ses performances, son accessibilité et son référencement naturel (SEO). L'enjeu était de transformer un site fonctionnel en une plateforme rapide et visible pour ses clients.",
+    "objectif": "Réduire le temps de chargement de la page à moins de 3 secondes. Résoudre les problèmes d'accessibilité et de référencement en mettant en œuvre des données structurées et en optimisant les images.",
+    "stack_technique": "HTML, CSS et JavaScript audités et modifiés. Outils d'analyse utilisés: Google Lighthouse, Wave et le validateur W3C. Outils de compression pour l'optimisation des images.",
+    "competences_developpees": "Maîtrise de l'audit de performance et la résolution de problèmes de rapidité. Expertise en référencement local (SEO) grâce à la mise en place de schémas de données structurées pour Google. ",
+    "resultats_et_impact": "Amélioration spectaculaire des scores Google Lighthouse, notamment la réduction du Largest Contentful Paint (LCP) et l'augmentation des notes d'accessibilité. Se traduit par un site web plus rapide, un meilleur référencement et une expérience utilisateur de qualité.",
+    "perspectives_amelioration": "Migrer l'application vers un framework côté serveur pour le rendu initial. Travail sur la mise en cache avec un Service Worker pour améliorer la fiabilité en mode hors ligne."
+  },
+  {
+    "nom": "Kasa",
+    "client": "Formation Dévelopeur Web - OpenClassrooms",
+    "date": "Août 2025",
+    "lien_github": "https://github.com/Manonrult/OC-projet-5-REACT",
+    "images": [
+      {
+        "numero": 1,
+        "url": "/Projets/Kaza/Kaza1.png",
+        "description": "Image principale pour la page d'accueil"
+      },
+      {
+        "numero": 2,
+        "url": "/Projets/Kaza/Kaza2.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 3,
+        "url": "/Projets/Kaza/Kaza3.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 4,
+        "url": "/Projets/Kaza/Kaza4.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 5,
+        "url": "/Projets/Kaza/Kaza5.png",
+        "description": "Image pour le carrousel"
+      }
+    ],
+    "contexte": "Moderniser une plateforme de location d'appartements entre particuliers en refondant son Front-end. L'enjeu était d'adopter une architecture monopage (SPA) en React pour améliorer l'expérience utilisateur et la maintenabilité du code. ",
+    "objectif": "Développer l'ensemble de l'interface, incluant l'affichage dynamique des annonces et la gestion des pages détaillées. Garantir la responsivité totale du design et configurer un système de routage performant. ",
+    "stack_technique": "ReactJS pour le développement frontal, React Router DOM pour la navigation. Style géré avec CSS/SASS. Fichier JSON pour simuler l'API Back-end. ",
+    "competences_developpees": "Maîtrise du développement par composants de React, permettant la création d'éléments UI réutilisables. Consolidation de la capacité à gérer l'état local et à implémenter une logique de routage dynamique. ",
+    "resultats_et_impact": "Application Monopage (SPA) entièrement fonctionnelle, respectant les normes de l'écosystème React et fidèle à la maquette. Succès mesuré par la fluidité de la navigation, le respect du découpage en composants et la gestion sans faille de l'affichage des données. [cite: 5]",
+    "perspectives_amelioration": "Connecter l'application à un véritable Back-end (tel que Node.js/Express) pour une gestion complète de la donnée. "
+  },
+  {
+    "nom": "Mon Vieux Grimoire",
+    "client": "Formation Dévelopeur Web - OpenClassrooms",
+    "date": "Septembre 2025",
+    "lien_github": "https://github.com/Manonrult/OC-projet-6-Backend-Mon-Vieux-Grimoire",
+    "images": [
+      {
+        "numero": 1,
+        "url": "/Projets/Mon-vieux-grimoire/Mon-vieux1.png",
+        "description": "Image principale pour la page d'accueil"
+      },
+      {
+        "numero": 2,
+        "url": "/Projets/Mon-vieux-grimoire/Mon-vieux2.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 3,
+        "url": "/Projets/Mon-vieux-grimoire/Mon-vieux3.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 4,
+        "url": "/Projets/Mon-vieux-grimoire/Mon-vieux4.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 5,
+        "url": "/Projets/Mon-vieux-grimoire/Mon-vieux5.png",
+        "description": "Image pour le carrousel"
+      }
+    ],
+    "contexte": "Création du Back-end complet pour une chaîne de librairies souhaitant lancer un site de référencement et de notation de livres.L'enjeu majeur était de concevoir une API REST fonctionnelle et hautement sécurisée. ",
+    "objectif": "Développer un serveur capable de gérer les opérations CRUD sur les livres et les notes, y compris le traitement des images. Mise en œuvre d'un système d'authentification robuste pour garantir que seuls les utilisateurs légitimes puissent interagir avec leurs données. ",
+    "stack_technique": "Stack Node.js pour l'environnement d'exécution, framework Express pour l'API REST. Base de données implémentée avec MongoDB et gérée par Mongoose. Sécurité: Bcrypt pour le hachage des mots de passe et tokens JWT pour l'autorisation. ",
+    "competences_developpees": "Maîtrise des fondamentaux du développement Back-end (modélisation de données avec Mongoose, création de middlewares d'authentification et d'autorisation). Implémentation de mesures de sécurité et gestion des fichiers avec Multer.",
+    "resultats_et_impact": "API complète, documentée et sécurisée, capable de soutenir toutes les fonctionnalités du Front-end, y compris l'ajout de notes et la modification de livres par leur seul propriétaire. Succès mesuré par la validation des tests de sécurité et le bon fonctionnement des endpoints REST.",
+    "perspectives_amelioration": "Ajout d'une limitation de taux (rate limiting). Amélioration de la gestion des erreurs via l'utilisation d'un middleware centralisé de gestion des exceptions."
+  },
+  {
+    "nom": "Menu Maker by Qwenta",
+    "client": "Formation Dévelopeur Web - OpenClassrooms",
+    "date": "Octobre 2025",
+    "lien_github": "https://github.com/Manonrult/OC-projet-7-MenuMaker-byQwenta/tree/main",
+    "images": [
+      {
+        "numero": 1,
+        "url": "/Projets/Menu-maker/Menu1.png",
+        "description": "Image principale pour la page d'accueil"
+      },
+      {
+        "numero": 2,
+        "url": "/Projets/Menu-maker/Menu2.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 3,
+        "url": "/Projets/Menu-maker/Menu3.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 4,
+        "url": "/Projets/Menu-maker/Menu4.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 5,
+        "url": "/Projets/Menu-maker/Menu5.png",
+        "description": "Image pour le carrousel"
+      },
+      {
+        "numero": 6,
+        "url": "/Projets/Menu-maker/Menu6.png",
+        "description": "Image pour le carrousel"
+      }
+    ],
+    "contexte": "Simulation de la phase préliminaire de conception pour le développement d'une application web destinée aux restaurateurs. L'enjeu n'était pas l'implémentation du code, mais la gestion de projet, la veille technologique et la rédaction de spécifications techniques complètes.",
+    "objectif": "Développer un système de veille technologique pertinent, rédiger des spécifications techniques claires, et présenter un plan de gestion de projet Agile/Scrum (découpage en sprints, planification des tâches) au client.",
+    "stack_technique": "Outils de gestion et de documentation: Notion pour le Kanban et les sprints, documentation technique via des outils bureautiques.Veille technologique effectuée sur Feedly.",
+    "competences_developpees": "Planification de projet selon la méthodologie Agile/Scrum. Maîtrise de la rédaction de spécifications techniques à partir d'un besoin client, et la capacité à justifier des choix technologiques grâce à une veille technologique rigoureuse. ",
+    "resultats_et_impact": "Dossier de planification complet comprenant le tableau Kanban du premier sprint, un document de spécifications techniques détaillées, et une proposition de plan de communication. L'impact se mesure par la clarté du chemin de développement, minimisant les risques et les incertitudes.",
+    "perspectives_amelioration": "Intégrer des estimations de charges plus fines pour chaque tâche technique."
+  }
+]

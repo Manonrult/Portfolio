@@ -1,0 +1,22 @@
+@use '../styles/mixins.scss' as *;
+@use '../styles/variables' as *;
+
+.portfolio-section {
+  // Le conteneur principal gère uniquement la largeur et les marges verticales globales
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 1200px; // Maintenir la largeur maximale de la zone de contenu
+  padding-left: 25px;
+  padding-right: 40px;
+  @media (max-width: 769px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+// 🎯 STYLE DU TITRE H2 SPÉCIFIQUE
+.portfolio-section__title {
+  @include heading-2;
+  margin-bottom: 30px;
+  // text-align: left; // Le titre s'aligne à gauche du conteneur aligneur
+}

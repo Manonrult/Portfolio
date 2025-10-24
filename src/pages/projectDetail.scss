@@ -1,0 +1,74 @@
+@use '../styles/variables.scss' as *;
+@use '../styles/mixins.scss' as *;
+
+.project-detail {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__banner {
+    background-color: $color-primary;
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px 20px;
+    }
+  }
+
+  &__info-group {
+    @include body-text;
+  }
+
+  &__title {
+    @include heading-2;
+    margin-bottom: 5px;
+  }
+
+  &__client,
+  &__date {
+    margin: 5px 0;
+    @include body-text;
+  }
+
+  &__github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    // Utiliser une couleur sombre (ex: noir) pour le lien GitHub
+    background-color: $color-text;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+
+    &:hover {
+      // Un gris plus clair au survol
+      background-color: #555;
+    }
+
+    @media (max-width: 768px) {
+      margin-top: 15px;
+      padding: 8px 15px;
+    }
+  }
+
+  &__collapses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .collapse {
+      width: 75%;
+      margin: 0 auto 10px auto;
+    }
+  }
+}
