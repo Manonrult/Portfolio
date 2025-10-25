@@ -2,10 +2,8 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contactForm.scss';
 
-// 👈 Import des icônes depuis React Icons (Font Awesome)
 import { FaUser, FaEnvelope, FaComment } from 'react-icons/fa';
 
-// Remplacez ces valeurs par VOS clés EmailJS
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
@@ -54,9 +52,7 @@ function ContactForm() {
         {/* Champ Email */}
         <div className="contact-form__group">
           <label htmlFor="email" className="contact-form__label">
-            <FaEnvelope className="contact-form__icon" />{' '}
-            {/* 👈 Utilisation de l'icône FaEnvelope */}
-            Email *
+            <FaEnvelope className="contact-form__icon" /> Email *
           </label>
           <input
             type="email"
@@ -72,9 +68,7 @@ function ContactForm() {
       {/* Champ Message */}
       <div className="contact-form__message-group">
         <label htmlFor="message" className="contact-form__label">
-          <FaComment className="contact-form__icon" />{' '}
-          {/* 👈 Utilisation de l'icône FaComment */}
-          Message *
+          <FaComment className="contact-form__icon" /> Message *
         </label>
         <textarea
           id="message"
