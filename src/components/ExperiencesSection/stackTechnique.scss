@@ -67,6 +67,7 @@
   font-size: 0.9em;
   font-family: $font-family-primary;
   color: $color-text;
+  flex-basis: calc(50% - 20px);
 
   // Puce personnalisée (le cercle plein de la maquette)
   &::before {

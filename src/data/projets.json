@@ -199,11 +199,6 @@
         "numero": 5,
         "url": "/Projets/Menu-maker/Menu5.png",
         "description": "Image pour le carrousel"
-      },
-      {
-        "numero": 6,
-        "url": "/Projets/Menu-maker/Menu6.png",
-        "description": "Image pour le carrousel"
       }
     ],
     "contexte": "Simulation de la phase préliminaire de conception pour le développement d'une application web destinée aux restaurateurs. L'enjeu n'était pas l'implémentation du code, mais la gestion de projet, la veille technologique et la rédaction de spécifications techniques complètes.",

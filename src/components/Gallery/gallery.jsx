@@ -73,9 +73,6 @@ function Gallery({ images }) {
             <FaChevronRight />
           </button>
           {/* Compteur d'images */}
-          <div className="gallery__counter">
-            {currentIndex + 1}/{totalImages}
-          </div>
         </>
       )}
     </div>

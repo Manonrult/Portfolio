@@ -1,3 +1,4 @@
+//Gallery page projet
 @use '../../styles/variables.scss' as *;
 
 .gallery {
@@ -6,7 +7,7 @@
   width: 50%;
   padding-top: 35%;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-radius: 10px;
 
   &__image {
@@ -15,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: opacity 0.5s ease;
   }
 
@@ -46,7 +47,7 @@
 
   &__counter {
     position: absolute;
-    bottom: 10px;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
     color: white;

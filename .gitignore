@@ -21,3 +21,8 @@ logs
 .vscode/               # <-- Dossier de configuration Visual Studio Code
 .idea
 .pnp.*
+
+# ---------------------------------------------------------------- #
+# Fichiers de variables d'environnement (Clés Secrètes) 🔒
+# ---------------------------------------------------------------- #
+.env

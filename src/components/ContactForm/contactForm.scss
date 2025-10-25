@@ -1,0 +1,98 @@
+@use '../../styles/variables.scss' as *;
+@use '../../styles/mixins.scss' as *;
+
+.contact-section {
+  background-color: $color-primary;
+  padding: 0.5rem 1rem;
+  margin-left: -5%;
+  margin-right: -5%;
+}
+
+.contact-form {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; // Permet aux éléments de passer à la ligne si nécessaire
+  gap: 20px; // Espace entre les éléments
+
+  &__title {
+    @include heading-2;
+    width: 100%; // Le titre prend toute la largeur
+    margin-bottom: 2rem;
+  }
+
+  &__fields {
+    display: flex;
+    flex-direction: column; // Les champs Nom et Email sont empilés
+    gap: 20px;
+    width: 100%; // Par défaut, prend toute la largeur sur mobile
+
+    // Sur bureau : les champs Nom/Email prennent environ 40% de la largeur
+    @media (min-width: 768px) {
+      width: 40%;
+    }
+  }
+
+  &__group {
+    width: 100%;
+  }
+
+  &__message-group {
+    width: 100%; // Par défaut, prend toute la largeur sur mobile
+
+    // Sur bureau : le champ Message prend environ 60% de la largeur restante
+    @media (min-width: 768px) {
+      width: calc(60% - 20px); // 60% moins l'espace de gap
+    }
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    @include body-text;
+  }
+
+  &__icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+
+  &__input,
+  &__textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box; /* S'assure que le padding n'augmente pas la largeur totale */
+    font-size: 1rem;
+    font-family: $font-family-primary;
+    background-color: #fbfbf5;
+  }
+
+  &__textarea {
+    resize: vertical; // Permet de redimensionner verticalement
+  }
+
+  &__submit-button {
+    background-color: #fbfbf5; // Bouton Envoyer comme sur la maquette
+    @include body-text;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-end; // Aligne le bouton à droite dans la flexbox (par défaut en bas à droite)
+    margin-top: 10px; // Petit espace au-dessus
+    width: 100%; // Pleine largeur sur mobile
+
+    @media (min-width: 768px) {
+      width: auto;
+      margin-left: auto; // Pousse le bouton à l'extrême droite
+    }
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+}
