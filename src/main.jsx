@@ -12,15 +12,19 @@ import './styles/main.scss';
 const router = createBrowserRouter([
   {
     element: <Layout />,
-    errorElement: <ErrorPage />,
     children: [
       {
-        path: '/', // Rendra <Home /> DANS l'<Outlet /> du Layout
+        path: '/',
         element: <Home />,
       },
       {
-        path: '/projet/:id', // Rendra <ProjectDetail /> DANS l'<Outlet /> du Layout
+        path: '/projet/:id',
         element: <ProjectDetail />,
+      },
+
+      {
+        path: '*', // Le wildcard * attrape toutes les routes qui n'ont pas matché
+        element: <ErrorPage />,
       },
     ],
   },
