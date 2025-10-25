@@ -17,11 +17,11 @@
       }
     ],
     "contexte": "Le projet Booki se situe dans le contexte de la création d'une plateforme de réservation d'hébergements et d'activités en ligne. L'enjeu principal était de réaliser la première intégration d'un site web à partir d'une maquette fournie, en respectant rigoureusement les standards du développement frontal.",
-    "objectif": "Traduire fidèlement la maquette utilisateur (fournie en format desktop et mobile) en code fonctionnel en utilisant uniquement HTML et CSS. [cite_start]Le projet visait à développer un site web entièrement responsive sans utiliser de Framework, tout en assurant une sémantique HTML claire et une structure CSS maintenable.",
+    "objectif": "Traduire fidèlement la maquette utilisateur (fournie en format desktop et mobile) en code fonctionnel en utilisant uniquement HTML et CSS. Le projet visait à développer un site web entièrement responsive sans utiliser de Framework, tout en assurant une sémantique HTML claire et une structure CSS maintenable.",
     "stack_technique": "HTML5 pour la structure sémantique du contenu et CSS3 pour le style et la mise en page. Les outils de développement ont inclus VS Code et GitHub pour le versionnement et la collaboration.",
-    "competences_developpees": "Maîtrise des fondamentaux de l'intégration web: la structuration sémantique avec HTML5, l'utilisation des Flexbox et des Media Queries pour la gestion de la mise en page et la responsivité.Organisation du code CSS pour garantir la clarté et la maintenabilité.",
-    "resultats_et_impact": "Livrable final est un site web responsive, affichant parfaitement sur les écrans desktop, tablette et mobile. [cite_start]Le succès a été mesuré par la fidélité de l'intégration à la maquette. ",
-    "perspectives_amelioration": "Intégrer un préprocesseur CSS comme SASS afin d'améliorer la structure et la réutilisation des styles. [cite_start]Enrichir le site avec JavaScript pour une interactivité accrue."
+    "competences_developpees": "Maîtrise des fondamentaux de l'intégration web : la structuration sémantique avec HTML5, l'utilisation des Flexbox et des Media Queries pour la gestion de la mise en page et la responsivité. Organisation du code CSS pour garantir la clarté et la maintenabilité.",
+    "resultats_et_impact": "Le livrable final est un site web responsive, affichant parfaitement sur les écrans desktop, tablette et mobile. Le succès a été mesuré par la fidélité de l'intégration à la maquette. ",
+    "perspectives_amelioration": "Intégrer un préprocesseur CSS comme SASS afin d'améliorer la structure et la réutilisation des styles. Enrichir le site avec JavaScript pour une interactivité accrue."
   },
   {
     "nom": "Sophie Bluel",
@@ -54,7 +54,7 @@
     "objectif": "Développer les galeries de travaux et mettre en place les fonctionnalités de connexion et de déconnexion de l'administrateur. Garantir l'affichage dynamique du contenu via des appels API, l'implémentation de filtres, et sécuriser l'accès au mode édition via l'authentification par token JWT.",
     "stack_technique": "HTML5 et CSS3 pour l'intégration, avec JavaScript pur pour toute la logique front-end et les manipulations du DOM. Échanges de données effectués avec une API REST pour récupérer les projets et gérer l'authentification. ",
     "competences_developpees": "Maîtrise de la manipulation du DOM pour l'injection dynamique de contenu et le développement de filtres. Implémentation du processus d'authentification utilisateur (login/logout) et gestion des tokens JWT pour sécuriser les fonctionnalités administratives.",
-    "resultats_et_impact": "Livrable final est une interface utilisateur fonctionnelle capable d'afficher, de filtrer et de mettre à jour la galerie de travaux dynamiquement. Le succès a été mesuré par la validation des interactions utilisateur et la sécurité du processus d'authentification pour le mode administrateur.",
+    "resultats_et_impact": "Le livrable final est une interface utilisateur fonctionnelle capable d'afficher, de filtrer et de mettre à jour la galerie de travaux dynamiquement. Le succès a été mesuré par la validation des interactions utilisateur et la sécurité du processus d'authentification pour le mode administrateur.",
     "perspectives_amelioration": "Utilisation d'un framework JavaScript (comme React) pour améliorer la gestion de l'état global et la scalabilité du projet. "
   },
   {
@@ -88,8 +88,8 @@
     "objectif": "Réduire le temps de chargement de la page à moins de 3 secondes. Résoudre les problèmes d'accessibilité et de référencement en mettant en œuvre des données structurées et en optimisant les images.",
     "stack_technique": "HTML, CSS et JavaScript audités et modifiés. Outils d'analyse utilisés: Google Lighthouse, Wave et le validateur W3C. Outils de compression pour l'optimisation des images.",
     "competences_developpees": "Maîtrise de l'audit de performance et la résolution de problèmes de rapidité. Expertise en référencement local (SEO) grâce à la mise en place de schémas de données structurées pour Google. ",
-    "resultats_et_impact": "Amélioration spectaculaire des scores Google Lighthouse, notamment la réduction du Largest Contentful Paint (LCP) et l'augmentation des notes d'accessibilité. Se traduit par un site web plus rapide, un meilleur référencement et une expérience utilisateur de qualité.",
-    "perspectives_amelioration": "Migrer l'application vers un framework côté serveur pour le rendu initial. Travail sur la mise en cache avec un Service Worker pour améliorer la fiabilité en mode hors ligne."
+    "resultats_et_impact": "Amélioration spectaculaire des scores Google Lighthouse, notamment la réduction du Largest Contentful Paint (LCP) et l'augmentation des notes d'accessibilité. Cela se traduit par un site web plus rapide, un meilleur référencement et une expérience utilisateur de qualité.",
+    "perspectives_amelioration": "Migrer l'application vers un framework côté serveur pour le rendu initial."
   },
   {
     "nom": "Kasa",
@@ -127,7 +127,7 @@
     "objectif": "Développer l'ensemble de l'interface, incluant l'affichage dynamique des annonces et la gestion des pages détaillées. Garantir la responsivité totale du design et configurer un système de routage performant. ",
     "stack_technique": "ReactJS pour le développement frontal, React Router DOM pour la navigation. Style géré avec CSS/SASS. Fichier JSON pour simuler l'API Back-end. ",
     "competences_developpees": "Maîtrise du développement par composants de React, permettant la création d'éléments UI réutilisables. Consolidation de la capacité à gérer l'état local et à implémenter une logique de routage dynamique. ",
-    "resultats_et_impact": "Application Monopage (SPA) entièrement fonctionnelle, respectant les normes de l'écosystème React et fidèle à la maquette. Succès mesuré par la fluidité de la navigation, le respect du découpage en composants et la gestion sans faille de l'affichage des données. [cite: 5]",
+    "resultats_et_impact": "Application Monopage (SPA) entièrement fonctionnelle, respectant les normes de l'écosystème React et fidèle à la maquette. Le succès est mesuré par la fluidité de la navigation, le respect du découpage en composants et la gestion sans faille de l'affichage des données.",
     "perspectives_amelioration": "Connecter l'application à un véritable Back-end (tel que Node.js/Express) pour une gestion complète de la donnée. "
   },
   {
