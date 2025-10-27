@@ -2,10 +2,10 @@
 @use '../../styles/mixins.scss' as *;
 
 .parcours-container {
-  padding: 5px 25px 26px 25px;
+  padding: 5px 0px 26px 25px;
   background-color: $color-primary;
-  margin: -50px -0px 0px -15px;
-  width: 100vw;
+  margin: -50px 0px 0px -15px;
+  width: 100%;
 }
 
 .section-title {

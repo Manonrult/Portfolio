@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import icon from '../../assets/Fleurs/fleur-jaune.webp';
 import '../Header/header.scss';
 
@@ -15,10 +16,14 @@ function Header() {
             <NavLink to="/">Accueil</NavLink>
           </li>
           <li className="nav__item">
-            <NavLink to="/#portfolio">Portfolio</NavLink>
+            <HashLink to="/#portfolio" smooth>
+              Portfolio
+            </HashLink>
           </li>
           <li className="nav__item">
-            <NavLink to="/#contact">Contact</NavLink>
+            <HashLink to="/#contact" smooth>
+              Contact
+            </HashLink>
           </li>
         </ul>
       </nav>
