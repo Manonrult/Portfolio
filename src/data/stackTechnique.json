@@ -4,7 +4,7 @@
     "items": [
       {
         "nom": "HTML5",
-        "logo_url": "public/Logo-tech/Techno/HTML5.png"
+        "logo_url": "/Logo-tech/Techno/HTML5.png"
       },
       { "nom": "CSS3", "logo_url": "/Logo-tech/Techno/CSS3.png" },
       { "nom": "SASS", "logo_url": "/Logo-tech/Techno/SASS.png" },
