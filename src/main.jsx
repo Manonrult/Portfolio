@@ -1,14 +1,13 @@
-import React, { lazy, Suspense } from 'react';
+import React from 'react';
 import ReactDom from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Layout from './layout';
+import Home from './pages/Home';
+import ProjectDetail from './pages/ProjectDetail';
+import ErrorPage from './pages/ErrorPage';
 
 import './styles/main.scss';
-
-const Home = lazy(() => import('./pages/Home'));
-const ProjectDetail = lazy(() => import('./pages/ProjectDetail'));
-const ErrorPage = lazy(() => import('./pages/ErrorPage'));
 
 const router = createBrowserRouter([
   {
@@ -16,28 +15,16 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: (
-          <Suspense fallback={<div>Chargement de la page d'accueil...</div>}>
-            <Home />
-          </Suspense>
-        ),
+        element: <Home />,
       },
       {
         path: '/projet/:id',
-        element: (
-          <Suspense fallback={<div>Chargement du projet...</div>}>
-            <ProjectDetail />
-          </Suspense>
-        ),
+        element: <ProjectDetail />,
       },
 
       {
         path: '*', // Le wildcard * attrape toutes les routes qui n'ont pas matché
-        element: (
-          <Suspense fallback={<div>Chargement de la page...</div>}>
-            <ErrorPage />
-          </Suspense>
-        ),
+        element: <ErrorPage />,
       },
     ],
   },
