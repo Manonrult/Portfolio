@@ -14,23 +14,21 @@
   }
 
   &__title {
-    // 🎯 Styles pour le titre en haut
     @include body-text;
     padding: 10px 0;
-    margin: 0; // Supprimer la marge par défaut
-    background-color: $color-primary; // Couleur de l'encart du titre (orange/jaune clair)
+    margin: 0;
+    background-color: $color-primary;
     text-align: center;
   }
 
   &__image-container {
     position: relative;
     width: 100%;
-    // Le padding-top maintient le ratio de l'image (e.g., 60% pour un ratio 5:3)
+
     padding-top: 60%;
-    flex-grow: 1; // Permet au conteneur d'image de prendre l'espace restant
+    flex-grow: 1;
   }
 
-  // Le reste du SCSS reste inchangé pour l'image et l'overlay
   &__image {
     position: absolute;
     top: 0;

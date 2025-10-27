@@ -6,32 +6,23 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  //padding: 0 20px; // Espace pour les flèches si elles sont à l'intérieur
   max-width: 100%;
   width: 100%;
 }
 
 .carousel-content {
   display: flex;
-  overflow: hidden; // Cache les éléments hors vue (très important)
+  overflow: hidden;
   width: 100%;
-  gap: 30px; // Espace entre les cartes
-
-  // Configuration pour le Mobile (1 carte à la fois)
-  // C'est le style par défaut, géré par PortfolioCard:
+  gap: 30px;
 
   .portfolio-card {
-    // Sur mobile, chaque carte prend 100% de l'espace horizontal du carousel-content
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  // Configuration pour le Desktop (3 cartes à la fois sur une ligne)
   @media (min-width: 769px) {
-    // Les cartes visibles ne doivent pas défiler par `overflow-x: scroll`,
-    // elles sont contrôlées par la logique React.
     .portfolio-card {
-      // Chaque carte prend un tiers de la largeur moins l'espace de gap
       flex: 0 0 calc((100% / 3) - 20px); // (100% / 3) moins (2 * gap / 3) pour distribuer l'espace
     }
   }
@@ -40,20 +31,18 @@
 .carousel-button {
   background: none;
   border: none;
-  color: $color-primary; // Couleur des flèches
+  color: $color-primary;
   font-size: 2.5rem;
   cursor: pointer;
   padding: 10px;
   transition: color 0.2s ease;
-  z-index: 10; // S'assurer que les flèches sont cliquables
+  z-index: 10;
 
   &:hover {
     color: darken($color-primary, 10%);
   }
 
-  // Masquer les boutons sur mobile si vous voulez forcer le défilement tactile,
-  // ou laissez-les pour une navigation mobile (un seul projet visible).
   @media (max-width: 768px) {
-    font-size: 1.5rem; // Réduire la taille des flèches sur mobile
+    font-size: 1.5rem;
   }
 }

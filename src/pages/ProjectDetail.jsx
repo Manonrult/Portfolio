@@ -47,11 +47,11 @@ function ProjectDetail() {
   const collapsesData = [
     { title: 'Contexte', content: contexte },
     { title: 'Objectif', content: objectif },
-    { title: 'Stack Technique', content: stack_technique },
-    { title: 'Compétences Développées', content: competences_developpees },
+    { title: 'Stack technique', content: stack_technique },
+    { title: 'Compétences développées', content: competences_developpees },
     { title: 'Résultats et Impacts', content: resultats_et_impact },
     {
-      title: "Perspectives d'Amélioration",
+      title: "Perspectives d'amélioration",
       content: perspectives_amelioration,
     },
   ];

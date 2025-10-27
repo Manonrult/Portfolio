@@ -14,9 +14,7 @@
     padding-right: 20px;
   }
 }
-// 🎯 STYLE DU TITRE H2 SPÉCIFIQUE
 .portfolio-section__title {
   @include heading-2;
   margin-bottom: 30px;
-  // text-align: left; // Le titre s'aligne à gauche du conteneur aligneur
 }

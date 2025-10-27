@@ -1,16 +1,57 @@
-# React + Vite
+# 🎓 Portfolio - Développeur web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet a été réalisé dans le cadre de la formation **Développeur web** d'OpenClassrooms. Ce projet est le reflet de mes compétences acquises à travers des projets professionnalisants, couvrant les aspects **Front-end** et **Back-end** du développement web.
 
-Currently, two official plugins are available:
+### Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Page d'accueil** : Affichage des sections suivantes : A propos, Parcours, Stack Technique et Softs skills, Portfolio et formulaire de contact
+- **Page de détail d'un projet** : Consultation des informations détaillées sur le projet réalisé, via un collapse + gallerie de photos du projet (contexte, objectif, stack technique, compétences développées, résultats-impcats et perspectives d'amélioration )
+- **Page d'erreur 404** : Affichage d'un message d'erreur si la page demandée n'existe pas.
+- **Carrousel d'images** : Navigation intuitive entre les photos d'un logement.
 
-## React Compiler
+### Technologies Utilisées
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Vite** : Outil de construction rapide et environnement de développement local (pour le bundling et la compilation).
+- **React** : Bibliothèque JavaScript pour la construction de l'interface utilisateur.
+- **React Router** : Pour la gestion des routes de l'application.
+- **JavaScript (ES6+)**
+- **Sass (SCSS)** : Pour la pré-compilation du CSS et l'organisation du style.
+- **HTML5**
 
-## Expanding the ESLint configuration
+### Installation et Lancement du Projet
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pour cloner et lancer ce projet en local, suivez ces étapes :
+
+**Prérequis**
+
+- Node.js (version 14 ou supérieure)
+- npm (le gestionnaire de paquets de Node.js)
+
+**Instructions**
+
+1.  **Cloner le dépôt :**
+
+    ```bash
+    git clone [https://github.com/Manonrult/Portfolio](https://github.com/Manonrult/Portfolio)
+    ```
+
+2.  **Accéder au répertoire du projet :**
+
+    ```bash
+    cd Portfolio
+    ```
+
+3.  **Installer les dépendances :**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Lancer l'application en mode développement :**
+    ```bash
+    npm run dev
+    ```
+
+### Auteur
+
+- **Manon Ruault** - Étudiante Développeuse Web, OpenClassrooms

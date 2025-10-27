@@ -15,10 +15,10 @@ function Header() {
             <NavLink to="/">Accueil</NavLink>
           </li>
           <li className="nav__item">
-            <a href="#portfolio">Portfolio</a>
+            <NavLink to="/#portfolio">Portfolio</NavLink>
           </li>
           <li className="nav__item">
-            <a href="#contact">Contact</a>
+            <NavLink to="/#contact">Contact</NavLink>
           </li>
         </ul>
       </nav>

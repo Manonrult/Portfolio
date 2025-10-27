@@ -19,7 +19,7 @@ function Collapse({ title, content }) {
   return (
     <div className="collapse">
       <div className="collapse__header" onClick={toggleCollapse}>
-        <h3 className="collapse__title">{title}</h3>
+        <h2 className="collapse__title">{title}</h2>
         {/* L'icône change de direction et tourne grâce au CSS si 'isOpen' est true */}
         <FaChevronUp className={`collapse__icon ${isOpen ? 'open' : ''}`} />
       </div>

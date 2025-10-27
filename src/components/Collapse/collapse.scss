@@ -6,7 +6,7 @@
   margin-bottom: 20px;
 
   &__header {
-    background-color: $color-secondary; // 💡 Utilise votre $color-primary
+    background-color: $color-secondary;
     border-radius: 5px;
     padding: 10px 20px;
     display: flex;
@@ -51,6 +51,5 @@
     padding: 20px 40px;
     @include body-text;
     line-height: 1.5;
-    text-align: justify;
   }
 }
