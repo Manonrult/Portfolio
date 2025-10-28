@@ -37,13 +37,13 @@ function ContactForm() {
         {/* Champ Nom et Prénom */}
         <div className="contact-form__group">
           <label htmlFor="name" className="contact-form__label">
-            <FaUser className="contact-form__icon" /> Nom et prénom *
+            <FaUser className="contact-form__icon" /> Nom et prénom
           </label>
           <input
             type="text"
             id="name"
             name="name"
-            placeholder="Nom et prénom *"
+            placeholder="Dupont Jean "
             required
             className="contact-form__input"
           />
@@ -52,13 +52,13 @@ function ContactForm() {
         {/* Champ Email */}
         <div className="contact-form__group">
           <label htmlFor="email" className="contact-form__label">
-            <FaEnvelope className="contact-form__icon" /> Email *
+            <FaEnvelope className="contact-form__icon" /> Email
           </label>
           <input
             type="email"
             id="email"
             name="email"
-            placeholder="Saisissez votre adresse email *"
+            placeholder="jean.dupont@exemple.fr "
             required
             className="contact-form__input"
           />
@@ -68,12 +68,12 @@ function ContactForm() {
       {/* Champ Message */}
       <div className="contact-form__message-group">
         <label htmlFor="message" className="contact-form__label">
-          <FaComment className="contact-form__icon" /> Message *
+          <FaComment className="contact-form__icon" /> Message
         </label>
         <textarea
           id="message"
           name="message"
-          placeholder="Saisissez votre message *"
+          placeholder="Saisissez votre message "
           required
           rows="10"
           className="contact-form__textarea"

@@ -1,5 +1,6 @@
 @use '../../styles/mixins' as *;
 @use '../../styles/variables' as *;
+@use 'sass:color' as c;
 
 @keyframes arrow-pulse {
   0% {
@@ -55,7 +56,7 @@
   animation: arrow-pulse 1s infinite ease-in-out;
 
   &:hover {
-    color: darken($color-primary, 10%);
+    color: c.adjust($color-primary, $lightness: 10%);
     animation: none;
     transform: translateX(5px) scale(1.1);
   }
