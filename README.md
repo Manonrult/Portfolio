@@ -6,7 +6,6 @@ Ce projet a été réalisé dans le cadre de la formation **Développeur web** d
 
 - **Page d'accueil** : Affichage des sections suivantes : A propos, Parcours, Stack Technique et Softs skills, Portfolio et formulaire de contact
 - **Page de détail d'un projet** : Consultation des informations détaillées sur le projet réalisé, via un collapse + gallerie de photos du projet (contexte, objectif, stack technique, compétences développées, résultats-impcats et perspectives d'amélioration )
-- **Page d'erreur 404** : Affichage d'un message d'erreur si la page demandée n'existe pas.
 - **Carrousel d'images** : Navigation intuitive entre les photos d'un logement.
 
 ### Technologies Utilisées
